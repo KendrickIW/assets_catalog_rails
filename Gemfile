@@ -44,6 +44,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5.2'
   gem 'poltergeist', '~> 1.13.0'
   gem 'factory_girl_rails', '~> 4.8.0'
+  gem 'rails-controller-testing'
+  gem 'database_cleaner'
 end
 
 group :development do
